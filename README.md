@@ -48,20 +48,10 @@ tinymce.init({
 });
 ```
 
-### View
-
-For displaing mathjax on web page you have to add [MathJax](https://www.mathjax.org) to the website itself.
-It is recommended to include /your-path-to-plugin/@peterbasksd/tinymce-mathjax/config.js
+add index.html
 
 ```
-  <script src="/your-path-to-plugin/@peterbasksd/tinymce-mathjax/config.js" type="text/javascript" charset="utf-8"></script>
-  <script src="/path-to-mathjax/es5/tex-mml-chtml.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tinymce/5.10.9/tinymce.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/tinymce/5.10.9/jquery.tinymce.min.js"></script>
 ```
-
-You can add an optional param to config.js - class
-
-```
-  <script src="/your-path-to-plugin/@peterbasksd/tinymce-mathjax/config.js?class=custom-mathjax-element-class" type="text/javascript" charset="utf-8"></script>
-```
-
-## License - MIT
